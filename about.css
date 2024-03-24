@@ -6,6 +6,28 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.desktop-navbar {
+  padding: 15px 80px 15px 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  text-decoration: none;
+}
+
+.text-desktop {
+  text-decoration: none;
+  color: #272a31;
+  padding: 10px;
+}
+
 .home-icon {
   width: "30px";
   height: "30px";
@@ -135,10 +157,6 @@ header {
 .second-footer img {
   width: 150px;
   height: auto;
-}
-
-.desktop-navbar {
-  display: none;
 }
 
 .about-container {
@@ -353,15 +371,6 @@ header {
 
   .social img {
     width: 20px;
-  }
-
-  .desktop-navbar {
-    padding: 15px 80px 15px 80px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .second-column-desktop {

@@ -1,9 +1,6 @@
 const sectionThree = document.getElementById("Section-three");
 const btnNum1 = document.getElementById("btn-num1");
 const btnNum2 = document.getElementById("btn-num2");
-const menu = document.getElementById("menu");
-const openMenu = document.getElementById("open-menu");
-const closeMenu = document.getElementById("close-menu");
 
 const projectDetails = [
   {
@@ -90,16 +87,6 @@ function showLess() {
   repeatSpeakers(2);
 }
 
-function openMenuHandler() {
-  menu.classList.remove("hidden");
-}
-
-function closeMenuHandler() {
-  menu.classList.add("hidden");
-}
-
 document.addEventListener("DOMContentLoaded", () => repeatSpeakers(), false);
 btnNum1.addEventListener("click", expandMore);
 btnNum2.addEventListener("click", showLess);
-openMenu.addEventListener("click", openMenuHandler);
-closeMenu.addEventListener("click", closeMenuHandler);

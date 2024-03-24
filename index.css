@@ -6,6 +6,28 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.desktop-navbar {
+  padding: 15px 80px 15px 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  text-decoration: none;
+}
+
+.text-desktop {
+  text-decoration: none;
+  color: #272a31;
+  padding: 10px;
+}
+
 .menu-nav {
   background-color: #272a32;
   color: #fff;
@@ -345,10 +367,6 @@ body {
   display: none;
 }
 
-.desktop-navbar {
-  display: none;
-}
-
 @media (max-width: 320px) {
   .grid-logo {
     padding: 30px 0 0 0;
@@ -479,27 +497,5 @@ body {
     display: flex;
     flex-direction: row;
     grid: none;
-  }
-
-  .desktop-navbar {
-    padding: 15px 80px 15px 80px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .second-desktop {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    text-decoration: none;
-  }
-
-  .text-desktop {
-    text-decoration: none;
-    color: #272a31;
-    padding: 10px;
   }
 }
